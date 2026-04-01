@@ -28,19 +28,18 @@ export default function HomePage() {
       </h1>
       <div className="flex flex-col gap-7 text-gray-500 leading-relaxed">
         <p>
-          비상교육 콘텐츠 Company 소속.
-          AI 기반 서비스를 직접 설계하고 개발하여, 빠르게 검증하는 팀입니다.
+          AI로 기획하고 개발하는 방식을 바꾸는 실험을 해왔습니다.
         </p>
         <p>
-          기획부터 구현, 현장 투입까지를 한 팀 안에서 수행합니다.
-          만들어서 증명한다는 원칙 아래, 지금까지 진행한 작업은{' '}
+          기획부터 구현, 현장 투입까지를 한 팀 안에서 수행했습니다.
+          만들어서 증명한다는 원칙 아래, 진행한 작업 일부를{' '}
           <Link
             to="/projects"
             className="text-gray-600 underline underline-offset-4 decoration-gray-200 hover:decoration-gray-600 transition-colors duration-200"
           >
             projects
           </Link>
-          에서 확인할 수 있습니다.
+          에서 소개합니다.
         </p>
       </div>
 

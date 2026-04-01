@@ -20,13 +20,12 @@ export default function ThoughtsPage() {
               <span className="flex-1 overflow-hidden text-gray-200 text-sm tracking-[0.2em] leading-none select-none whitespace-nowrap">
                 {'·'.repeat(100)}
               </span>
-              <span className="text-gray-300 text-sm shrink-0 tabular-nums">
-                {t.date}
+              <span className="text-gray-300 text-sm shrink-0">
+                {t.author}
               </span>
             </div>
             <p className="text-gray-400 text-sm mt-1">
               {t.description}
-              {t.author && <span className="text-gray-300"> · {t.author}</span>}
             </p>
           </Link>
         ))}

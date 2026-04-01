@@ -1,7 +1,10 @@
 import { projects } from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
 
-const sorted = [...projects].sort((a, b) => b.date.localeCompare(a.date));
+const authorOrder = ['서준영', '홍석진', '김규동'];
+const sorted = [...projects].sort(
+  (a, b) => authorOrder.indexOf(a.author ?? '') - authorOrder.indexOf(b.author ?? ''),
+);
 
 export default function ProjectsPage() {
   return (
