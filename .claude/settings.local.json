@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/Users/mieum/works/blog/public/images/proofflow\")",
+      "Bash(cp \"c:/Users/mieum/works/blog/자료/홍석진/적자대조-메인화면.png\" \"c:/Users/mieum/works/blog/public/images/proofflow/main.png\")",
+      "Bash(cp \"c:/Users/mieum/works/blog/자료/홍석진/적자대조-에디터.png\" \"c:/Users/mieum/works/blog/public/images/proofflow/editor.png\")",
+      "Bash(cp \"c:/Users/mieum/works/blog/자료/홍석진/적자대조-프로젝트관리.png\" \"c:/Users/mieum/works/blog/public/images/proofflow/project-management.png\")",
+      "Bash(cp \"c:/Users/mieum/works/blog/자료/홍석진/적자대조-대조뷰어.png\" \"c:/Users/mieum/works/blog/public/images/proofflow/comparison-viewer.png\")",
+      "Bash(npm install:*)"
+    ]
+  }
+}

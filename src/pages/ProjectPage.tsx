@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import { projects } from '../data/projects';
 
 export default function ProjectPage() {
@@ -48,7 +49,7 @@ export default function ProjectPage() {
       </header>
 
       <div className="prose max-w-none">
-        <ReactMarkdown>{project.content}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{project.content}</ReactMarkdown>
       </div>
 
       {project.links.length > 0 && (

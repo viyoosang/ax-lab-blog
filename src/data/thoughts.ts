@@ -12,7 +12,9 @@ export const thoughts: Thought[] = [
     slug: 'what-ax-means-to-us',
     title: '6개월간 프로덕트를 만들며 느낀 AX',
     description: 'AX전략 LAB에서 6개월간 개발하며 깨달은 AX의 본질',
-    content: `## 들어가며
+    content: `<img src="/images/thoughts/ax-threads.png" alt="AX 리딩하며 깨달은 점" style="max-width:480px" />
+
+## 들어가며
 
 각자 현업에서 일하면서 필요하다고 느꼈지만, 여러 여건상 즉시 실행에 옮기지 못했던 아이디어들이 있었습니다. AX전략 LAB에서는 그 아이디어들을 직접 검토하고, 고민을 거쳐 프로덕트로 만들었습니다.
 

@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import { thoughts } from '../data/thoughts';
 
 export default function ThoughtPage() {
@@ -36,7 +37,7 @@ export default function ThoughtPage() {
       </header>
 
       <div className="prose max-w-none">
-        <ReactMarkdown>{thought.content}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{thought.content}</ReactMarkdown>
       </div>
     </article>
   );
